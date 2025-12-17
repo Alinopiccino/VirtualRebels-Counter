@@ -1,0 +1,28 @@
+[gd_resource type="Resource" script_class="DeckData" load_steps=14 format=3]
+
+[ext_resource type="Script" path="res://Scripts/CardData.gd" id="1_0y5e3"]
+[ext_resource type="Script" path="res://Scripts/DeckData.gd" id="2_3bxrp"]
+[ext_resource type="Resource" path="res://CardResources/WATER CREATURES/Abyssal Terror.tres" id="3_ckq81"]
+[ext_resource type="Resource" path="res://CardResources/WATER CREATURES/Lenso.tres" id="5_j45xv"]
+[ext_resource type="Resource" path="res://CardResources/EARTH CREATURES/Centauro Solitario.tres" id="6_xg1ga"]
+[ext_resource type="Resource" path="res://CardResources/WATER SPELLS/Frozen Weapon .tres" id="7_xg1ga"]
+[ext_resource type="Resource" path="res://CardResources/FIRE CREATURES/Arcane Goblin.tres" id="9_2qtsr"]
+[ext_resource type="Resource" path="res://CardResources/EARTH CREATURES/Mini Stone Golem.tres" id="9_ff11q"]
+[ext_resource type="Resource" path="res://CardResources/EARTH SPELLS/Hole.tres" id="9_iocy8"]
+[ext_resource type="Resource" path="res://CardResources/EARTH SPELLS/Restoration.tres" id="9_q2o2b"]
+[ext_resource type="Resource" path="res://CardResources/WATER SPELLS/Spell Vanisher.tres" id="10_2qtsr"]
+[ext_resource type="Resource" path="res://CardResources/WATER SPELLS/Counterspell.tres" id="11_ff11q"]
+[ext_resource type="Resource" path="res://CardResources/FIRE CREATURES/Burning Sun Adept.tres" id="12_q2o2b"]
+
+[resource]
+script = ExtResource("2_3bxrp")
+deck_name = "Test hole"
+cards = Array[ExtResource("1_0y5e3")]([ExtResource("3_ckq81"), ExtResource("6_xg1ga"), ExtResource("6_xg1ga"), ExtResource("6_xg1ga"), ExtResource("9_2qtsr"), ExtResource("9_2qtsr"), ExtResource("9_2qtsr"), ExtResource("5_j45xv"), ExtResource("5_j45xv"), ExtResource("5_j45xv"), ExtResource("7_xg1ga"), ExtResource("7_xg1ga"), ExtResource("9_iocy8"), ExtResource("9_iocy8"), ExtResource("9_iocy8"), ExtResource("9_ff11q"), ExtResource("9_ff11q"), ExtResource("9_ff11q"), ExtResource("9_q2o2b"), ExtResource("9_q2o2b"), ExtResource("9_q2o2b"), ExtResource("10_2qtsr"), ExtResource("11_ff11q"), ExtResource("11_ff11q"), ExtResource("12_q2o2b"), ExtResource("12_q2o2b"), ExtResource("12_q2o2b")])
+is_valid = false
+mana_sort_state = "none"
+rank_sort_state = "none"
+mana_slot_1 = "Fire"
+mana_slot_2 = "Water"
+mana_slot_3 = "Water"
+mana_slot_4 = "Fire"
+mana_slot_5 = "Earth"

@@ -1,0 +1,30 @@
+[gd_resource type="Resource" script_class="DeckData" load_steps=16 format=3]
+
+[ext_resource type="Script" path="res://Scripts/CardData.gd" id="1_6fqir"]
+[ext_resource type="Resource" path="res://CardResources/FIRE SPELLS/Firebolt.tres" id="2_j32ju"]
+[ext_resource type="Script" path="res://Scripts/DeckData.gd" id="2_qb7qr"]
+[ext_resource type="Resource" path="res://CardResources/WATER CREATURES/Frost-Soul Dragon.tres" id="9_h6480"]
+[ext_resource type="Resource" path="res://CardResources/EARTH CREATURES/Diamond Guard.tres" id="9_nqks0"]
+[ext_resource type="Resource" path="res://CardResources/WIND CREATURES/Kon'Mar.tres" id="10_h6480"]
+[ext_resource type="Resource" path="res://CardResources/EARTH SPELLS/Sand Gust.tres" id="10_nqks0"]
+[ext_resource type="Resource" path="res://CardResources/WATER SPELLS/Frozen Weapon .tres" id="11_h6480"]
+[ext_resource type="Resource" path="res://CardResources/WIND SPELLS/Forced Return.tres" id="11_o62un"]
+[ext_resource type="Resource" path="res://CardResources/WIND CREATURES/Shadow Plunderer.tres" id="12_apdnk"]
+[ext_resource type="Resource" path="res://CardResources/WIND SPELLS/Magical Trunade.tres" id="12_b85s7"]
+[ext_resource type="Resource" path="res://CardResources/WIND SPELLS/Epochal Storm.tres" id="12_o62un"]
+[ext_resource type="Resource" path="res://CardResources/FIRE SPELLS/Vulcanic Sweep.tres" id="13_apdnk"]
+[ext_resource type="Resource" path="res://CardResources/WIND SPELLS/Storm Favour.tres" id="13_b85s7"]
+[ext_resource type="Resource" path="res://CardResources/WIND CREATURES/Stormcaller .tres" id="14_b85s7"]
+
+[resource]
+script = ExtResource("2_qb7qr")
+deck_name = "VALID TArg"
+cards = Array[ExtResource("1_6fqir")]([ExtResource("2_j32ju"), ExtResource("2_j32ju"), ExtResource("2_j32ju"), ExtResource("11_h6480"), ExtResource("11_h6480"), ExtResource("12_apdnk"), ExtResource("12_apdnk"), ExtResource("12_apdnk"), ExtResource("9_nqks0"), ExtResource("9_nqks0"), ExtResource("9_nqks0"), ExtResource("10_nqks0"), ExtResource("10_nqks0"), ExtResource("10_nqks0"), ExtResource("9_h6480"), ExtResource("9_h6480"), ExtResource("9_h6480"), ExtResource("10_h6480"), ExtResource("10_h6480"), ExtResource("11_o62un"), ExtResource("11_o62un"), ExtResource("12_o62un"), ExtResource("12_o62un"), ExtResource("12_o62un"), ExtResource("13_apdnk"), ExtResource("12_b85s7"), ExtResource("13_b85s7"), ExtResource("14_b85s7")])
+is_valid = false
+mana_sort_state = "none"
+rank_sort_state = "none"
+mana_slot_1 = "Fire"
+mana_slot_2 = "Wind"
+mana_slot_3 = "Water"
+mana_slot_4 = "Wind"
+mana_slot_5 = "Earth"
