@@ -767,7 +767,7 @@ func can_card_be_enchained(card: Node, cm: Node) -> bool:
 		# 📦 Ottieni la carta precedente nella chain
 		var last_index = cm.effect_stack.size() - 1
 		var target_entry = cm.effect_stack[last_index]
-		var target_card: Node = nullsss
+		var target_card: Node = null
 		if target_entry.player_id == multiplayer.get_unique_id():
 			target_card = cm.get_node("../CardManager").get_node_or_null(target_entry.card_name)
 		else:
